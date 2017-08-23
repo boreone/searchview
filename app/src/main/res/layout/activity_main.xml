@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+    <TextView
+        style="@style/StyleTextView"
+        android:text="默认样式默认样式默认样式"
+        android:textColor="@color/gray_white1"
+        android:background="@color/gray_white"/>
+
+    <EditText
+        android:id="@+id/et_search"
+        style="@style/StyleEditText"
+        android:layout_width="180dp"
+        android:textColorHint="@color/gray_white1"
+        android:background="@color/gray_white"/>
+
+    <TextView
+        style="@style/StyleTextView"
+        android:text="居中样式" />
+
+    <com.jinlin.custom.iconcenterview.IconCenterEditText
+        android:id="@+id/icet_search"
+        style="@style/StyleEditText" />
+
+</LinearLayout>
